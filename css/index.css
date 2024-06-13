@@ -386,7 +386,7 @@ footer{
     margin-top: 3rem;
 }
 footer p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .fa-facebook{
     font-size: 2.4rem;
@@ -423,6 +423,21 @@ footer p{
 .slider img{
     filter: none;
 }
+
+
+@media(max-width:251px){
+    footer p{
+        font-size: 1rem;
+    }
+    
+    .menu{
+        margin-left: -5rem;
+    }
+}
+
+
+
+
 @media(min-width:330px){
 
     .menu{
@@ -554,7 +569,7 @@ ul{
     /* border: 1px solid white; */
     padding: 1rem;
     border-radius: 1rem;
-    margin-left: -44rem;
+    margin-left: -48rem;
     /* display: none; */
     position: none;
     background: none;
@@ -626,7 +641,7 @@ hr{
 }
 @media(min-width:970px){
     .menu{
-        margin-left: 58rem;
+        margin-left: 55rem;
     }
     .parent{
         display: grid;
@@ -713,7 +728,8 @@ font-family: 'Times New Roman', Times, serif;
         display: grid;
         text-align: center;
         grid-gap: 1rem;
-        padding-right: 2rem;
+        padding-right: 10rem;
+        padding-left: 10rem;
         grid: 'accounting webtech comm-skills'
         'hardware electronics database'
         'cpp cpp cpp';
@@ -721,11 +737,12 @@ font-family: 'Times New Roman', Times, serif;
     }
     
     .course figcaption{
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .course p{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .course div{
         height: auto;
@@ -743,7 +760,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 @media (min-width:1000px){
     .menu{
-        margin-left: 55rem;
+        margin-left: 53rem;
     }
     .sec3 p{
         font-size: 2.1rem;
@@ -790,7 +807,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 @media(min-width:1200px){
     .menu{
-        margin-left: 70rem;
+        margin-left: 66rem;
     }
     .sec3{
         margin-left: 20rem;
@@ -798,7 +815,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 @media(min-width:1300px){
     .menu{
-        margin-left: 78rem;
+        margin-left: 74rem;
     }
     #sec1{
         margin-top: 12rem;
@@ -826,7 +843,7 @@ font-family: 'Times New Roman', Times, serif;
 
 @media(min-width:1500px){
     .menu{
-        margin-left: 95rem;
+        margin-left: 90rem;
     }
     .sec2{
         background: #2e3047;
@@ -850,12 +867,17 @@ font-family: 'Times New Roman', Times, serif;
     }
 
 }
+@media(min-width:1700px){
+    .sec2{
+        margin-left: -3rem;
+    }
+}
 @media(min-width:1800px){
 
     a{
         font-size: 2.1rem;
     }
     .menu{
-        margin-left: 108rem;
+        margin-left: 100rem;
     }
 }
