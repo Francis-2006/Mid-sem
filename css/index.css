@@ -543,7 +543,7 @@ footer p{
 @media(min-width:700px){
 
     .course{
-        grid: auto/auto auto auto;
+        grid: auto/auto auto;
         grid-gap:0.5rem;
     }
     .sec4 h1{
@@ -696,7 +696,7 @@ font-family: 'Times New Roman', Times, serif;
         border-top: none;
         border-right: none;
         /* border-left:4px solid white ; */
-    }
+    /* }
     .accounting{
         grid-area: accounting;
     }
@@ -723,16 +723,16 @@ font-family: 'Times New Roman', Times, serif;
     .electronics{
         grid-area:electronics;
         /* display: none; */
-    }
+    } */
     .course{
         display: grid;
         text-align: center;
         grid-gap: 1rem;
-        padding-right: 10rem;
-        padding-left: 10rem;
-        grid: 'accounting webtech comm-skills'
+        padding-right: 20rem;
+        padding-left: 20rem;
+        /* grid: 'accounting webtech comm-skills'
         'hardware electronics database'
-        'cpp cpp cpp';
+        'cpp cpp cpp'; */
        
     }
     
