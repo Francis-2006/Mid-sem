@@ -386,8 +386,30 @@ footer{
     margin-top: 3rem;
 }
 footer p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.fa-phone{
+    color: gold;
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+}
+.skill h2{
+    font-size: 1.8rem;
+    font-family: arial;
+    color: gold;
+    text-decoration: underline;
+}
+.skill li{
+    list-style:circle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+
+
 .fa-facebook{
     font-size: 2.4rem;
     color: gold;
@@ -415,6 +437,15 @@ footer p{
 
 }
 .fa-google:hover{
+    color: white;
+}
+.fa-github{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-github:hover{
     color: white;
 }
   img:hover{
@@ -449,6 +480,13 @@ footer p{
     .menu{
         margin-left: 9rem;
     }
+    footer p{
+      font-size: 1.7rem;  
+    }
+    .skill li{
+        font-size: 1.7rem;
+    }
+
 }
 @media(min-width:450px){
 
@@ -617,6 +655,12 @@ hr{
     /* width: 590%; */
     filter: brightness(50%);
     display: none;
+}
+footer{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
 }
 
 }
@@ -788,15 +832,15 @@ font-family: 'Times New Roman', Times, serif;
         font-size: 2rem;
     }
     .fa-facebook{
-        font-size: 3rem;
+        font-size: 2.3rem;
     
     }
     .fa-whatsapp{
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
     
-    .fa-google{
-        font-size: 3rem;
+    .fa-github{
+        font-size: 2.3rem;
     }
     
     .sec3{
